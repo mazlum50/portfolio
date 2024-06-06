@@ -18,13 +18,13 @@ header{
 }
 .logo{
     text-decoration: none;
-    color: aqua;
+    color: #4e9eff;
     text-transform: uppercase;
     font-weight: 700;
     font-size: 1.8em;
 }
 nav a {
-    color: aqua;
+    color: #4e9eff;
     text-decoration: none;
     font-weight: 500;
     font-size: 1.1em;
@@ -32,4 +32,53 @@ nav a {
 }
 nav a:hover {
     color: blueviolet;
+}
+section {
+    padding: 100px 200px;
+}
+.main {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    background: url(image/background.jpg) no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+}
+.main h2 {
+
+    font-size: 1.15em;
+    font-weight: 500;
+}
+
+.main h2 span {
+    display: inline-block;
+    margin-top: 10px;
+    color: #4e9eff;
+    font-size: 3em;
+    font-weight: 600;
+}
+.main-btn {
+    color: #fff;
+    background-color: #3a6cf4;
+    text-decoration: none;
+    font-size: 1.1em;
+    font-weight: 600;
+    display: inline-block;
+    padding: 0.9375em 2.1875em;
+    letter-spacing: 1px;
+    border-radius: 15px;
+    margin-bottom: 40px;
+    transition: 0.7s ease;
+}
+
+.main-btn:hover {
+    background-color: #0a49f6;
+    transform: scale(1.1);
+}
+
+.social a {
+    font-size: 1.9em;
+    padding-right: 40px;
 }
