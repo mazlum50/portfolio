@@ -6,3 +6,30 @@
      box-sizing: border-box;
      scroll-behavior: smooth;
  }
+header{
+    background-color: gray;
+    width: 100%;
+    position: fixed;
+    z-index: 999;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 10px 100px;
+}
+.logo{
+    text-decoration: none;
+    color: aqua;
+    text-transform: uppercase;
+    font-weight: 700;
+    font-size: 1.8em;
+}
+nav a {
+    color: aqua;
+    text-decoration: none;
+    font-weight: 500;
+    font-size: 1.1em;
+    padding-left: 30px;
+}
+nav a:hover {
+    color: blueviolet;
+}
